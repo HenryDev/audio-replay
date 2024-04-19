@@ -1,0 +1,50 @@
+.navBar {
+  display: flex;
+  padding: 12px;
+}
+
+.navBar > h1 {
+  flex-basis: 50%;
+}
+
+.navBarSubContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 30%;
+}
+
+.contentContainer {
+  display: flex;
+  margin: 12px;
+}
+
+.verticalSeparator {
+  border-top: 1px solid black;
+  align-self: normal;
+}
+
+.listContainer { 
+  flex-basis: 20%;
+  border-right: 1px solid black;
+}
+
+.detailContainer {
+  flex-basis: 80%;
+}
+
+.scrollArea {
+  height: 400px; /* Adjust the height as per your requirement */
+  border: 1px solid #ccc;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+  color: inherit;
+}
